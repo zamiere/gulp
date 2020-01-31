@@ -13,7 +13,7 @@ RUN \
   apk add --no-cache dumb-init && \
   npm update && \
   npm install --global gulp-cli && \
-  npm install gulp  gulp-sass && \
+  npm install gulp@^3.9.1  gulp-sass && \
   chown -R node:node /site
 
 VOLUME /site
