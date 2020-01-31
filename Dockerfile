@@ -2,8 +2,8 @@
 
 FROM node:10.18.1-alpine3.9
 
-LABEL com.frapsoft.maintainer="Maik Ellerbrock" \
-      com.frapsoft.version="0.2.0"
+LABEL eu.szabad.maintainer="zamiere" \
+      eu.szabad.version="0.2.1"
 
 WORKDIR /site
 
